@@ -1,0 +1,37 @@
+,field_name,field_type,field_description 
+0,(MRT-IND-CODE),x(2),"Code 01-09 should identify the individual based on the categories mentioned in the
+handbook."
+1,(MRT-GRP-CODE),$9(3),"The field indicates the group an individual falls in. The classification is as follows:
+
+000 - 099: Lies in the 1st group
+100 - 199: Lies in the 2 group
+200 - 299: Lies in the 3 group
+300 - 399: Lies in the 4th group"
+2,(MCV-INT-RATE),$9(2)v9(2),"This field governs how interest is to be applied to the fund. The code is:
+
+1 = Refers to actual interest rate as entered in rate or table code field.
+2 = Use a fixed or contractualinterest schedule by duration as identified by the
+‘rate or table code field"
+3,(MGPCURR-OPT),X(1),"nl HE aie Set
+
+This code indicates the guaranteed participation of the policy.
+
+O = Values waiting to be declared and applied. This value will be present from the time
+that next year’s values are set up in the participation information trailer until the
+values are declared and applied.
+
+The following code indicate the option to which application of the guaranteed
+participation was made. ff any guaranteed value was applied to a second option, then the
+guaranteed value fields indicate the second and/or mandatory options.
+
+B = Deposit at interest
+
+C= Cash
+
+D = Premium reduction
+
+F = Paid-up additions or Index Additions
+
+N = Do not Apply Values.
+
+P = Mutual fund (applies to‘ MWU from CFO only)"
